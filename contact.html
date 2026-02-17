@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact your trusted developer</h1>
+        <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>
+                I'm always open to connecting with fellow developers, potential collaborators, or anyone interested in learning more about my work.
+                Feel free to reach out through any of the channels below!
+            </p>
+            <ul>
+                <li>Email: <a href="mailto:halakeissene7@gmail.com" target="_blank">halakeissene7@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/issene-halake-7b9b1a1b2/" target="_blank">Issene Halake</a></li>
+                <li>GitHub: <a href="https://github.com/Ihalake" target="_blank">github.com/Ihalake</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                <legend>Personal Info</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </fieldset>
+
+                <fieldset>
+                <legend>Message Details</legend>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">--Select a subject--</option>
+                    <option value="collaboration">Collaboration</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="job">Job Opportunity</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <p>Preferred Contact Method:</p>
+                <input type="radio" id="contact-email" name="contactMethod" value="email" checked>
+                <label for="contact-email">Email</label>
+
+                <input type="radio" id="contact-linkedin" name="contactMethod" value="linkedin">
+                <label for="contact-linkedin">LinkedIn</label>
+
+                <input type="radio" id="contact-github" name="contactMethod" value="github">
+                <label for="contact-github">GitHub</label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>FAQ</h2>
+            <details>
+                <summary>How long does it take to get a response?</summary>
+                <p>I usually respond within 24-48 hours depending on my workload.</p>
+            </details>
+
+            <details>
+                <summary>Can I collaborate on open-source projects?</summary>
+                <p>Absolutely! I welcome collaboration and open-source contributions.</p>
+            </details>
+
+            <details>
+                <summary>Do you offer freelance work?</summary>
+                <p>Yes, but availability is limited. Please include details in your message.</p>
+            </details>
+        </section>
+    </main>
+
+  <footer>
+    <p>&copy; 2026 Issene Halake</p>
+  </footer>
+</body>
+</html>
