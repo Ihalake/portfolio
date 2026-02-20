@@ -1,0 +1,10 @@
+Hero Section (outer frame)(parent)
+└── Container (controls width + padding)
+    └── Layout row (image | content)-Flex items size themselves based on content unless you force a width.
+        ├── Image column
+        └── Content column
+            ├── Name + role
+            ├── Description
+            ├── Tags
+            └── Buttons
+
